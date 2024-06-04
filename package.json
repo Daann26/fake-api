@@ -1,15 +1,23 @@
 {
   "name": "alurageek",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "start": "json-server --watch ./database/db.json --port 3000"
+    "start": "node api/server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "alura",
+    "alurageek",
+    "json-server",
+    "javascript",
+    "API"
+  ],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "description": "",
   "dependencies": {
-    "json-server": "^1.0.0-beta.0"
+    "cors": "^2.8.5",
+    "json-serve": "^0.1.0",
+    "json-server": "^0.17.3"
   }
 }
